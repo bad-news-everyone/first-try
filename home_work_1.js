@@ -6,11 +6,11 @@ class Rectangle {
     }
 
     getArea() {
-        return (this.width * this.height);
+        return this.width * this.height;
     }
 }
 
-var r = new Rectangle(10, 20);
+let r = new Rectangle(10, 20);
 console.log(r.width);
 console.log(r.height);
 console.log(r.getArea());
